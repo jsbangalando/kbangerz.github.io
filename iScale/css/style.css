@@ -1,0 +1,137 @@
+.navbar {
+	padding:10px;
+	margin-bottom:0 !important;
+}
+
+.user {
+	color:#fff;
+}
+
+
+
+.card {
+	padding-left:0 !important;
+	
+}
+	.card a {
+		font-size:20px;
+	}
+
+.details {
+	padding-top:20px;
+}
+	.details .name {
+		font-size:25px;
+	}
+
+	.details .avatar {
+		margin-left:15px;
+	}
+
+	.details .sendmessage {
+		margin-top:20px;
+	}
+
+	.details .hearts {
+		margin-top:10px;
+	}
+
+	.details thead {
+		background-color:#ccc;
+	}
+
+	.details .odd {
+		background-color:#eee;
+	}
+
+
+
+.wrap-container {
+	border:1px solid;
+}
+
+.likes {
+	padding:0 !important;
+	
+}
+	.likes > .titleHeader {
+		background-color:#ccc;
+		padding:5px 5px 5px 1px;
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+
+
+/*sprite with stars*/
+#reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+  background: url('../images/star.png') no-repeat;
+}
+
+#reviewStars-input {
+  
+  /*fix floating problems*/
+  overflow: hidden;
+  *zoom: 1;
+  /*end of fix floating problems*/
+  
+  position: relative;
+  float: left;
+}
+
+#reviewStars-input input {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  
+  width: 43px;
+  height: 40px;
+  
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+#reviewStars-input label.active {
+  background-position: 0 -40px;
+  height: 40px;
+  width: 43px;
+}
+
+#reviewStars-input label {
+  background-position: 0 0;
+  height: 40px;
+  width: 43px;
+  float: right;
+  cursor: pointer;
+  margin-right: 10px;
+  
+  position: relative;
+  z-index: 1;
+}
+
+/*#reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+  background-position: 0 -40px;
+  height: 40px;
+  width: 43px;
+}*/
+
+#reviewStars-input #star-0 {
+  left: 0px;
+}
+#reviewStars-input #star-1 {
+  left: 53px;
+}
+#reviewStars-input #star-2 {
+  left: 106px;
+}
+#reviewStars-input #star-3 {
+  left: 159px;
+}
+#reviewStars-input #star-4 {
+  left: 212px;
+}
+#reviewStars-input #star-5 {
+  left: 265px;
+}
+
+
